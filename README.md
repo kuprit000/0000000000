@@ -1,4 +1,4 @@
-# wabot-aq
+# 0000000000
 Simple WhatsApp Bot
 
 ### FOR TERMUX USER
