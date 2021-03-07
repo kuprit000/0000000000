@@ -11,9 +11,9 @@ let util = require('util')
 let WAConnection = simple.WAConnection(_WAConnection)
 
 
-global.owner = ['6285758779973@s.whatsapp.net'] // Put your number here
-global.mods = ['6285758779973@s.whatsapp.net'] // Want some help?
-global.prems = ['6285758779973@s.whatsapp.net'] // Premium user has unlimited limit
+global.owner = ['6285802546577@s.whatsapp.net'] // Put your number here
+global.mods = ['6285802546577@s.whatsapp.net'] // Want some help?
+global.prems = ['6285802546577@s.whatsapp.net'] // Premium user has unlimited limit
 
 
 global.timestamp = {
@@ -162,7 +162,7 @@ conn.handler = async function (m) {
         if (xp > 99) m.reply('Ciee Mau Curang Yaa :V')
         else m.exp += xp
         if (!isPrems && global.DATABASE._data.users[m.sender].limit < m.limit * 1 && plugin.limit) {
-          this.reply(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, m)
+          this.reply(m.chat, `Limit anda habis, silahkan bemli melalui *${usedPrefix}buy*`, m)
           continue
         }
         try {
@@ -206,7 +206,7 @@ conn.handler = async function (m) {
   }
 }
 conn.welcome = 'Selamat Datang Semoga Betah Di Group Sini Ngab :) @user👋'
-conn.bye = 'Akhir Nya Beban Keluarga Berkurang Semoga Tenang Di Sana Di Temani Dakjal ;-) @user👋'
+conn.bye = 'Akhir Nya Beban Keluarga Berkurang Semoga Tenang Di Sana ;-) @user👋'
 conn.onAdd = async function ({ m, participants }) {
   for (let user of participants) {
     let pp = './src/avatar_contact.png'

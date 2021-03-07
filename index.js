@@ -2,7 +2,7 @@ console.log('Starting...')
 let { spawn } = require('child_process')
 let path = require('path')
 const CFonts  = require('cfonts')
-CFonts.say('Darus And Dapa', {
+CFonts.say('SPTR 26', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
